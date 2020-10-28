@@ -6,9 +6,11 @@ dist: bionic
 install:
   - sudo apt-get update
   - pip install -r requirements.txt
+cache: pip
 before_script:
   - cd dp_sgd
 # command to run tests
 script:
   - python3 -O train_dp.py || python -O train_dp.py
   - python3 train_dp.py --dpsgd True --noise_multiplier 1 || python train_dp.py --dpsgd True --noise_multiplier 1
+  - echo "check"
