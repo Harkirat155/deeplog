@@ -1,0 +1,14 @@
+{
+	"data_type" : "hdfs",
+
+	"NUM_LAYERS" : 2,
+	"DROP_OUT" : 0.8, 
+	"Hidden" : 256,
+	"max_train_epochs" : 100,
+	"batch_size" : 256,
+	"hist_len" : 10,
+	"data_folder" : "../datasets/",
+	"result_folder" : "../results/",
+	"model_folder" : "../models/"
+
+}
