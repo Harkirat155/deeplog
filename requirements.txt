@@ -1,0 +1,8 @@
+tensorflow==1.15.0
+numpy
+# lstm_inference_dp
+# data_reader 
+# dp_optimizer
+# sanitizer
+# accountant
+# rdp_accountant 

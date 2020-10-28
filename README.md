@@ -1,14 +1,14 @@
 ## The code is tested at:
 
-Tensorflow version: 1.31.1
+Tensorflow version: 1.15.0
 
-Python 2.7.15rc1
+Python 2.7.18
 
 
 ## All source code files are in folder: ./dp_sgd
 
 
-## cd dp_sgd
+```cd dp_sgd```  
 
 
 ## Training:
