@@ -1,5 +1,6 @@
 tensorflow==1.15.0
 numpy
+scipy
 # lstm_inference_dp
 # data_reader 
 # dp_optimizer
